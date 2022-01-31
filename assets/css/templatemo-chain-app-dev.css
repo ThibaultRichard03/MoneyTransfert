@@ -256,7 +256,7 @@ body {
 
 .white-button a {
   display: inline-block !important;
-  padding: 10px 193px !important;
+  padding: 12px 103px !important;
   color: #4b8ef1 !important;
   text-transform: capitalize;
   font-size: 15px;
@@ -269,12 +269,12 @@ body {
 
 .discord-button a {
   display: inline-block !important;
-  padding: 10px 20px !important;
+  padding: 9px 1px !important;
   color: #4b8ef1 !important;
   text-transform: capitalize;
   font-size: 15px;
   background-color: #fff;
-  margin-left: 205px;
+  margin-left: 6px;
   margin-top: 9px;
   border-radius: 23px;
   font-weight: 500 !important;
@@ -1193,9 +1193,9 @@ About Us
 
 .about-us .box-item {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.07);
-  padding: 10px 30px;
+  padding: 26px 37px;
   background-color: #fff;
-  border-radius: 40px;
+  border-radius: 20px;
   margin-bottom: 30px;
 }
 
@@ -2069,6 +2069,7 @@ responsive
   .main-banner .left-content h2 {
     color: #2a2a2a;
     margin-right: 0;
+    font-size: 36px;
   }
   .main-banner .left-content p {
     color: #afafaf;
@@ -2171,6 +2172,7 @@ responsive
   .google-form {
     width: 443px;
     height: 1150px;
+    margin: auto;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -2181,6 +2183,7 @@ responsive
   }
   footer .section-heading h4 {
     color: #2a2a2a;
+    margin-bottom: 100px;
   }
   footer #search {
     margin-bottom: 45px;
