@@ -256,7 +256,7 @@ body {
 
 .white-button a {
   display: inline-block !important;
-  padding: 12px 103px !important;
+  padding: 12px 231px !important;
   color: #4b8ef1 !important;
   text-transform: capitalize;
   font-size: 15px;
@@ -269,12 +269,12 @@ body {
 
 .discord-button a {
   display: inline-block !important;
-  padding: 9px 1px !important;
+  padding: 9px 13px !important;
   color: #4b8ef1 !important;
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 18px;
   background-color: #fff;
-  margin-left: 6px;
+  margin-left: 251px;
   margin-top: 9px;
   border-radius: 23px;
   font-weight: 500 !important;
@@ -741,9 +741,39 @@ header
   .background-header .nav li a.active:after {
     display: none;
   }
+
+  .white-button a {
+    display: inline-block !important;
+    padding: 12px 103px !important;
+    color: #4b8ef1 !important;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 23px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all .5s;
+  }
+  
+  .discord-button a {
+    display: inline-block !important;
+    padding: 9px 1px !important;
+    color: #4b8ef1 !important;
+    text-transform: capitalize;
+    font-size: 27px;
+    background-color: #fff;
+    margin-left: -15px;
+    margin-top: 9px;
+    border-radius: 23px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all .5s;
+  }
+
 }
 
 @media (max-width: 767px) {
+
   .pre-header ul.info li:last-child,
   .pre-header ul.info li:nth-child(6) {
     display: none!important;
@@ -2033,6 +2063,33 @@ responsive
     display: block;
   }
 
+  .white-button a {
+    display: inline-block !important;
+    padding: 12px 130px !important;
+    color: #4b8ef1 !important;
+    text-transform: capitalize;
+    font-size: 15px;
+    background-color: #fff;
+    border-radius: 23px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all .5s;
+  }
+  
+  .discord-button a {
+    display: inline-block !important;
+    padding: 9px 13px !important;
+    color: #4b8ef1 !important;
+    text-transform: capitalize;
+    font-size: 19px;
+    background-color: #fff;
+    margin-left: 144px;
+    margin-top: 9px;
+    border-radius: 23px;
+    font-weight: 500 !important;
+    letter-spacing: 0.3px !important;
+    transition: all .5s;
+  }
 
   .header-area .main-nav .logo h4 {
     font-size: 24px;
