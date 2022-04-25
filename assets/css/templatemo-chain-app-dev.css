@@ -268,9 +268,8 @@ body {
 }
 
 .discord-button a {
-  display: inline-block !important;
-  padding: 9px 13px !important;
-  color: #4b8ef1 !important;
+  display: inline-block !important;;
+  padding: 7px 7px !important;
   text-transform: capitalize;
   font-size: 18px;
   background-color: #fff;
@@ -280,6 +279,11 @@ body {
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
   transition: all .5s;
+}
+
+.discord-button img , .discordimage  {
+  width: 24px;
+  display: block;
 }
 
 /* .white-button a {
