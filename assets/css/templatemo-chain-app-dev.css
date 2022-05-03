@@ -1,38 +1,5 @@
-/*
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-TemplateMo 570 Chain App Dev
-
-https://templatemo.com/tm-570-chain-app-dev
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -51,6 +18,172 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 
 /* perso */
+.demande {
+  display: contents;
+}
+
+.demande .bloc a {
+  text-decoration: none;
+  color: white;
+  padding: 50px 118px;
+}
+
+.demande .bloc {
+  background-color: #42a3f4;
+  width: 450px;
+  padding: 50px;
+  margin-bottom: 25px !important;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.demande .bloc:hover {
+  transition: .5s;
+  transform: scale(1.05);
+}
+
+.demande .bloc-carre {
+  background: linear-gradient(to bottom right, #9dd3ff, #7ec5ff);
+  width: 300px;
+  height: 300px;
+  padding: 126px 50px;
+  margin-bottom: 25px !important;
+  margin: 0 auto;
+  color:  #fff;
+  font-weight: 800 !important;
+  text-align: center;
+  border-radius: 50px;
+  cursor: pointer;
+  object-fit: contain;
+  transition: .5s;
+}
+
+.demande .bloc-carre:hover {
+  transition: .5s;
+  transform: scale(1.05);
+}
+
+.demande .bloc-carre a {
+  text-decoration: none;
+  color: white;
+  padding: 124px 0px;
+}
+
+psc {
+  background: -webkit-linear-gradient(#3200ff, #6a45ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+pp {
+  background: -webkit-linear-gradient(rgb(86, 118, 214), #179bd7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+pp_active {
+  background: linear-gradient(to bottom right, #253b80, #179bd7);
+}
+
+cm {
+  background: -webkit-linear-gradient(#d6ac02, #ff9a17);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+cm_active {
+  background: linear-gradient(to bottom right, #ffca00, #ff9201);
+}
+
+
+
+.titre .contour {
+  -webkit-text-stroke: 1px #fff;
+}
+
+
+.soon {
+  padding: 0px;
+  color: #fff;
+  background-color: #ff0015;
+  border-radius: 15px;
+  width: 29px;
+  height: 29px;
+  display: block;
+  position: absolute;
+  margin-top: -169px;
+  margin-left: 221px;
+  animation-duration: 2s;
+  animation-name: clignoter;
+  animation-iteration-count: infinite;
+  cursor: help;
+  transition: 1s;
+}
+
+.soon:hover {
+  background-color: #cf4c56;
+  transition: 0.2s;
+  animation-duration: 0;
+  animation-name: stop;
+  animation-iteration-count: infinite;
+  transition: 1s;
+}
+
+.soon p {
+  text-align: center;
+  margin: 0px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.soon .attention {
+  display: none;
+  transition: 1s;
+}
+
+.soon:hover .attention {
+  display: flex;
+  transition: 1s;
+  padding: 9px;
+  background: #131c30b4;
+  width: 220px;
+  font-size: 15px;
+  margin-top: -138px;
+  margin-left: -207px;
+  border-radius: 8px;
+}
+
+@keyframes clignoter {
+ 0% {box-shadow: none;}
+ 20% {box-shadow: none;}
+ 40% {box-shadow: 0px 0px 3px 2px rgba(230, 127, 127, 0.726);}
+ 60% {box-shadow: 0px 0px 3px 2px rgba(230, 127, 127, 0.726);}
+ 80% {box-shadow: 0px 0px 3px 2px rgba(230, 127, 127, 0.726);}
+ 100% {box-shadow: none;}
+}
+
+@keyframes stop {
+ 0% {box-shadow: none;}
+ 50% {box-shadow: none;}
+ 100% {box-shadow: none;}
+}
+
+.euro {
+  background: linear-gradient(to bottom right, #ffca00, #ff9201);
+  transform: rotate(0.99turn);
+  display: block;
+  position: absolute;
+}
+
+.cursor-click {
+  cursor: pointer;
+}
+
 
 .google-form {
   width: 1000px;
@@ -60,7 +193,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   display: block;
 }
 
-.contour {
+.the-clients .contour {
   border: 1px solid rgb(233, 233, 233);
   border-radius: 30px;
 }
@@ -70,6 +203,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
   font-weight: 800;
   text-align: center;
   display: block;
+  color: #3B566E;
 }
 
 .marge-question-reponse {
@@ -81,11 +215,13 @@ figure, header, nav, section, article, aside, footer, figcaption {
   font-size: 20px;
   font-weight: 800;
   text-align: left;
+  color: rgb(65, 65, 65);
 }
 
 .paragraphe-cgu {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 16px;
+  color: #000;
 }
 
 .cgu-marge {
@@ -151,7 +287,7 @@ header, nav, section, article, aside, footer, hgroup {
 
 html, body {
   /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   background-color: #fff;
   -ms-text-size-adjust: 100%;
@@ -193,7 +329,7 @@ html,
 body {
   background: #fff;
   /* font-family: 'Roboto', sans-serif; */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
@@ -231,7 +367,6 @@ body {
   color: #2a2a2a;
   font-size: 30px;
   font-weight: 700;
-  /* text-transform: capitalize; */
   margin-bottom: 10px;
 }
 
@@ -256,7 +391,7 @@ body {
 
 .white-button a {
   display: inline-block !important;
-  padding: 12px 231px !important;
+  padding: 12px 206px !important;
   color: #4b8ef1 !important;
   text-transform: capitalize;
   font-size: 15px;
@@ -268,9 +403,8 @@ body {
 }
 
 .discord-button a {
-  display: inline-block !important;
-  padding: 9px 13px !important;
-  color: #4b8ef1 !important;
+  display: inline-block !important;;
+  padding: 7px 7px !important;
   text-transform: capitalize;
   font-size: 18px;
   background-color: #fff;
@@ -280,6 +414,11 @@ body {
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
   transition: all .5s;
+}
+
+.discord-button img , .discordimage  {
+  width: 24px;
+  display: block;
 }
 
 /* .white-button a {
@@ -1028,7 +1167,7 @@ Banner Style
   position: relative;
   font-weight: 700;
   line-height: 70px;
-  font-size: 50px;
+  font-size: 47px;
   margin-bottom: 20px;
 }
 
@@ -1905,10 +2044,8 @@ a.btn_red {
 
 .social_login .icon {
   display: inline-block;
-  
   padding: 5px 10px;
   margin-right: 10px;
-  float: left;
   color: #FFF;
   font-size: 16px;
   text-align: center;
@@ -2055,6 +2192,10 @@ responsive
 
 @media (max-width: 1200px) {
 
+  .main-banner .right-image img {
+    display: none;
+}
+
   .google-form {
     width: 650px;
     height: 1150px;
@@ -2083,7 +2224,7 @@ responsive
     text-transform: capitalize;
     font-size: 19px;
     background-color: #fff;
-    margin-left: 144px;
+    margin-left: -14px;
     margin-top: 9px;
     border-radius: 23px;
     font-weight: 500 !important;
